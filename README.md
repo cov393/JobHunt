@@ -57,7 +57,7 @@ Web app that provides a search interface for jobs
 
 </details>
 
-### Sources
+## Sources
 
 **Job Details**
 
