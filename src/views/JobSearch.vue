@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <div class="container mx-auto p-4">
     <h1 class="text-4xl font-bold mb-4">Job Search</h1>
     <div class="mb-4">
@@ -44,30 +44,40 @@
 
     <div class="grid grid-cols-1 gap-4">
       <div
-        v-for="job in filteredJobs"
-        :key="job.job_title"
-        class="border-2 border-gray-300 rounded p-4">
-        <h2 class="text-2xl font-semibold mb-2">{{ job.job_title }}</h2>
-        <p>{{ job.job_description }}</p>
-        <p>{{ job.posted_date }}</p>
-        <p>{{ job.salary_to }}</p>
-        <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          @click="showJobDetails(job)">
-          View Details
-        </button>
-        <button><router-link to="job" class="nav-link">View</router-link></button>
+            v-for="job in filteredJobs"
+            :key="job.job_title"
+            class="border-2 border-gray-300 rounded p-4"
+        >
+            <h2 class="text-2xl font-semibold mb-2">{{ job.job_title }}</h2>
+            <p>{{ job.job_description }}</p>
+            <p>{{ job.posted_date }}</p>
+            <p>{{ job.salary_to }}</p>
+            <!-- <button
+                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    @click="showJobDetails(job)">
+                    View Details
+                </button> -->
+
+            <router-link
+                :to="{
+                    name: 'job_details',
+                    params: { id: job.job_title }
+                }"
+                class="nav-link"
+                >
+                <button>View</button>
+            </router-link>
       </div>
     </div>
   </div>
 </template>
-
-<script>
-import jobsData from "./database/database.json";
-import JobDetails from "./views/JobDetails.vue";
+  
+  <script>
+import jobsData from "../database/database.json";
+import JobDetails from "./JobDetails.vue";
 
 export default {
-  name: "app",
+  name: "job_search",
   components: {
     JobDetails,
   },
@@ -122,29 +132,5 @@ export default {
     },
   },
 };
-</script> -->
-
-<template>
-  <router-view name="job_search"></router-view>
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12">
-              <div>
-                  <router-view></router-view>
-              </div>
-              <div>
-                  <router-view name="job_search"></router-view>
-              </div>
-          </div>
-      </div>
-  </div>
-</template>
-
-<script>
-export default {
-  name: 'app',
-  components: {},
-};
 </script>
-
-<style></style>
+  
