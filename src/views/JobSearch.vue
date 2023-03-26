@@ -57,15 +57,10 @@
             <p>{{ job.job_description }}</p>
             <p>{{ job.posted_date }}</p>
             <p>{{ job.salary_to }}</p>
-            <!-- <button
-                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                    @click="showJobDetails(job)">
-                    View Details
-                </button> -->
 
             <router-link
                 :to="{
-                    name: 'single-application',
+                    name: 'job_details',
                     params: { description: job.job_description, title: job.job_title, category:job.category},
                     query: {sort: 'asc'}
                 }"
@@ -80,14 +75,10 @@
   
   <script>
 import jobsData from "../database/database.json";
-import JobDetails from "./JobDetails.vue";
-// import axios from 'axios';
 
 export default {
   name: "job_search",
-  components: {
-    JobDetails,
-  },
+
   data() {
     return {
       search: "",
@@ -103,6 +94,7 @@ export default {
     showJobDetails(job) {
       this.selectedJob = job;
     },
+    // POST to new Page
     formatPosts(postsData) {
             for (let key in postsData) {
                 this.postDetails.push({ ...postsData[key], description: key, title, category});
@@ -110,6 +102,7 @@ export default {
         },
   },
   computed: {
+    // categories list
     categories() {
       const categoriesSet = new Set();
       for (const job of this.jobs) {
@@ -135,6 +128,8 @@ export default {
             new Date(b.posted_date).toLocaleDateString("en-US") -
             new Date(a.posted_date).toLocaleDateString("en-US")
         );
+        
+
       } else if (this.sortOption === "highest-salary") {
         jobs.sort((a, b) => b.salary_to - a.salary_to);
       }
