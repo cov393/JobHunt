@@ -59,7 +59,7 @@ Web app that provides a search interface for jobs
 
 ## Sources
 
-**Job Details**
+**Job Details image**
 
 ```html
 https://desktoplux.com/wallpapers/2000/1481/800x500.jpg
@@ -68,7 +68,7 @@ https://desktoplux.com/wallpapers/2000/1481/800x500.jpg
 <kbd>
 <img src="https://desktoplux.com/wallpapers/2000/1481/800x500.jpg" width="200"/></kbd>
 
-**Job Search**
+**Job Search image**
 
 ```html
 https://classpic.ru/wp-content/uploads/2018/01/30919/devushka-v-sumerkah-derzhit-na-vytjanutyh-rukah-bengalskij-ogon.jpg
