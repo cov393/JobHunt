@@ -54,6 +54,7 @@ You are required to create a web app that provides a search interface for jobs
 </details>
 
 </details>
+
 ### Sources
 
 **Job Details**
