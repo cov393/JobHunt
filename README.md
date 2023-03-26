@@ -14,8 +14,8 @@ You are required to create a web app that provides a search interface for jobs
 
 <details> <summary> Features </summary>
 
-- [ ] Fetch job data from a mock API, using the JSON Provided to you.
-- [ ] Use VueJS to implement the front-end functionality.
+- [x] Fetch job data from a mock API, using the JSON Provided to you.
+- [x] Use VueJS to implement the front-end functionality.
 - [ ] Use Tailwind CSS, Bootstrap, or a framework that you are comfortable with to make the web page mobile responsive.
 - [ ] Implement a search bar that allows the user to search for jobs by title. The search results should update dynamically as the user types.
 - [ ] Implement a dropdown for the Sort By field, with options to filter by highest salary and latest date. The search results should dynamically change on selection.
@@ -23,6 +23,35 @@ You are required to create a web app that provides a search interface for jobs
 
 </details>
 
+<details><summary> Use VueJS to implement the front-end functionality. </summary>
+<details> <summary> Job Search: </summary> 
+
+- [x] Search by Job title
+- [x] Sort by Date
+- [x] Category sorting 
+- [ ] Display Job specifications: title, job ID - <span style="background-color: #FF0000"> not provided </span> , salary, posted <span style="background-color:#FFFF00"> X </span> days ago
+
+</details>
+
+<details> <summary> Job Details: </summary>
+
+  - Display the selected job in new page:
+  **1 Box**
+  - [ ] Job title
+  - [ ] Job ID - <span style="background-color: #FF0000"> not provided </span> 
+  - [ ] Location
+  - [ ] Salary
+  - [ ] Posted <span style="background-color:#FFFF00"> X </span> days ago
+  - [ ] 
+
+**2 Box**
+
+- [ ] Job description
+- [ ] Apply function
+
+</details>
+
+</details>
 ### Sources
 
 **Job Details**
