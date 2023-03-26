@@ -1,10 +1,10 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router';
-import Axios from 'axios';
 import './style.css'
 import App from './App.vue'
 import JobDetails from './views/JobDetails.vue'
 import JobSearch from './views/JobSearch.vue'
+import JobItem from './views/JobItem.vue'
 
 // createApp(App).mount('#app')
 
@@ -26,6 +26,14 @@ const route = [
             default: JobDetails,
         },
         props: true,
+        children: [
+            {
+                name: 'single-application',
+                path: ':title',
+                component: JobItem,
+                props: true,
+            },
+        ],
     }
 ];
 

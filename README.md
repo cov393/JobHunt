@@ -7,33 +7,38 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
 # JobHunt
+
 You are required to create a web app that provides a search interface for jobs
 
-
 ## Requirements
+
 <details> <summary> Features </summary>
 
--	[ ] Fetch job data from a mock API, using the JSON Provided to you. 
--	[ ] Use VueJS to implement the front-end functionality.
--	[ ] Use Tailwind CSS, Bootstrap, or a framework that you are comfortable with to make the web page mobile responsive.
--	[ ] Implement a search bar that allows the user to search for jobs by title. The search results should update dynamically as the user types.
--	[ ] Implement a dropdown for the Sort By field, with options to filter by highest salary and latest date. The search results should dynamically change on selection.
-- [ ]	Implement checkboxes that allow the user to filter the search results by category. The categories should be fetched dynamically from the API data. The search results should dynamically change on selection.
+- [ ] Fetch job data from a mock API, using the JSON Provided to you.
+- [ ] Use VueJS to implement the front-end functionality.
+- [ ] Use Tailwind CSS, Bootstrap, or a framework that you are comfortable with to make the web page mobile responsive.
+- [ ] Implement a search bar that allows the user to search for jobs by title. The search results should update dynamically as the user types.
+- [ ] Implement a dropdown for the Sort By field, with options to filter by highest salary and latest date. The search results should dynamically change on selection.
+- [ ] Implement checkboxes that allow the user to filter the search results by category. The categories should be fetched dynamically from the API data. The search results should dynamically change on selection.
+
 </details>
 
-
-### Sources:
+### Sources
 
 **Job Details**
+
 ```html
 https://desktoplux.com/wallpapers/2000/1481/800x500.jpg
 ```
+
 <kbd>
 <img src="https://desktoplux.com/wallpapers/2000/1481/800x500.jpg" width="200"/></kbd>
 
 **Job Search**
+
 ```html
 https://classpic.ru/wp-content/uploads/2018/01/30919/devushka-v-sumerkah-derzhit-na-vytjanutyh-rukah-bengalskij-ogon.jpg
 ```
+
 <kbd>
 <img src="https://classpic.ru/wp-content/uploads/2018/01/30919/devushka-v-sumerkah-derzhit-na-vytjanutyh-rukah-bengalskij-ogon.jpg" width="200" /></kbd>

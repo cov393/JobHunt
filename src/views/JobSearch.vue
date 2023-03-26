@@ -1,4 +1,5 @@
 <template>
+    <!-- SEARCH BY NAME -->
   <div class="container mx-auto p-4">
     <h1 class="text-4xl font-bold mb-4">Job Search</h1>
     <div class="mb-4">
@@ -10,6 +11,7 @@
       />
     </div>
 
+     <!-- SORTING -->
     <div class="flex justify-between mb-4">
       <div>
         <label for="sort" class="mr-2">Sort by:</label>
@@ -23,6 +25,8 @@
         </select>
       </div>
 
+
+      <!-- FILTER -->
       <div>
         <label for="category" class="mr-2">Filter by category:</label>
         <select
@@ -42,6 +46,7 @@
       </div>
     </div>
 
+    <!-- DISPLAY -->
     <div class="grid grid-cols-1 gap-4">
       <div
             v-for="job in filteredJobs"
@@ -60,10 +65,11 @@
 
             <router-link
                 :to="{
-                    name: 'job_details',
-                    params: { id: job.job_title }
+                    name: 'single-application',
+                    params: { description: job.job_description, title: job.job_title, category:job.category},
+                    query: {sort: 'asc'}
                 }"
-                class="nav-link"
+                class="btn btn-primary"
                 >
                 <button>View</button>
             </router-link>
@@ -75,6 +81,7 @@
   <script>
 import jobsData from "../database/database.json";
 import JobDetails from "./JobDetails.vue";
+// import axios from 'axios';
 
 export default {
   name: "job_search",
@@ -89,16 +96,18 @@ export default {
       selectedCategory: "all",
       jobs: jobsData.jobs,
       sortBy: "category",
+      postDetails: []
     };
   },
   methods: {
     showJobDetails(job) {
       this.selectedJob = job;
     },
-    // showJobDetails(){
-    //   // this.$router.push({path:'/job',query:{id:this.jobs[1].job_title}});
-    //   // this.$router.push({path:'/job'});
-    // }
+    formatPosts(postsData) {
+            for (let key in postsData) {
+                this.postDetails.push({ ...postsData[key], description: key, title, category});
+            }
+        },
   },
   computed: {
     categories() {
@@ -108,6 +117,7 @@ export default {
       }
       return Array.from(categoriesSet);
     },
+    // Filter by category
     filteredJobs() {
       let jobs = this.jobs.filter((job) => {
         const titleMatch = job.job_title
@@ -118,7 +128,7 @@ export default {
           job.category === this.selectedCategory;
         return titleMatch && categoryMatch;
       });
-
+//Sort by
       if (this.sortOption === "latest-date") {
         jobs.sort(
           (a, b) =>
