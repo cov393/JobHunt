@@ -35,8 +35,10 @@ You are required to create a web app that provides a search interface for jobs
 
 <details> <summary> Job Details: </summary>
 
-  - Display the selected job in new page:
-  **1 Box**
+ Display the selected job in new page:
+  
+**1 Box**
+
   - [ ] Job title
   - [ ] Job ID - <span style="background-color: #FF0000"> not provided </span> 
   - [ ] Location
