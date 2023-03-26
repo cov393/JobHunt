@@ -44,7 +44,6 @@ You are required to create a web app that provides a search interface for jobs
   - [ ] Location
   - [ ] Salary
   - [ ] Posted <span style="background-color:#FFFF00"> X </span> days ago
-  - [ ] 
 
 **2 Box**
 
