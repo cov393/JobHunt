@@ -1,18 +1,32 @@
 <template>
   <div class="container mx-auto p-4">
     <div class="border-2 border-gray-300 rounded p-4">
+      <h1><JobItem /></h1>
       <router-link :to="{ name: 'job_search' }" class="btn btn-primary">
         <button>back</button>
       </router-link>
-      <h2 class="text-2xl font-semibold mb-2">{{ title }}</h2>
       <div v-for="(item, itemIndex) in find_data" :key="itemIndex">
-        <p>Job ID</p>
-        <p>{{ item.location }}</p>
-        <p>£{{ item.salary_from }}</p>
+        <!-- FIRS BOX -->
+        <div>
+          <h2 class="text-2xl font-semibold mb-2">{{ title }}</h2>
+          <p>Job ID</p>
+          <p>{{ item.location }}</p>
+          <p>£{{ item.salary_from }}</p>
+          <p>Posted {{ passDaysCount }} days ago</p>
+          <p>{{ item.category }}</p>
+        </div>
+
+        <!-- SECOND BOX -->
+        <div>
+            <h2><JobItem/></h2>
+            <p>{{ item.job_description }}</p>
+            <h3> Key Responsibility:</h3>
+            <li></li>
+            <h3>Requirements:</h3>
+            <li></li>
+        </div>
       </div>
-      <p>
-         Posted {{ passDaysCount }} days ago
-      </p>
+      <button>Apply</button>
     </div>
   </div>
 </template>

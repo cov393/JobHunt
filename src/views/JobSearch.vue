@@ -1,7 +1,7 @@
 <template>
     <!-- SEARCH BY NAME -->
   <div class="container mx-auto p-4">
-    <h1 class="text-4xl font-bold mb-4">Job Search</h1>
+    <p class="text-4xl font-bold mb-4" >Job Search</p>
     <div class="mb-4">
       <input
         v-model="searchQuery"

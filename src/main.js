@@ -21,6 +21,7 @@ const route = [
         components: { default: JobSearch },
     },
     {
+        name: 'job_details',
         path: '/job_details',
         components: {
             default: JobDetails,
