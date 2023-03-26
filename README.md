@@ -24,7 +24,7 @@ Web app that provides a search interface for jobs
 - [ ] Implement a dropdown for the Sort By field, with options to filter by highest salary and latest date. The search results should dynamically change on selection.
 - [ ] Implement checkboxes that allow the user to filter the search results by category. The categories should be fetched dynamically from the API data. The search results should dynamically change on selection.
 
-</details>
+
 
 <details><summary> Use VueJS to implement the front-end functionality. </summary>
 <details> <summary> Job Search: </summary> 
@@ -32,7 +32,7 @@ Web app that provides a search interface for jobs
 - [x] Search by Job title
 - [x] Sort by Date
 - [x] Category sorting 
-- [ ] Display Job specifications: title, job ID - <span style="background-color: #FF0000"> not provided </span> , salary, posted <span style="background-color:#FFFF00"> X </span> days ago
+- [x] Display Job specifications: title, job ID - <span style="background-color: #FF0000"> not provided </span> , salary, posted <span style="background-color:#FFFF00"> X </span> days ago
 
 </details>
 
@@ -42,16 +42,18 @@ Web app that provides a search interface for jobs
   
 **1 Box**
 
-  - [ ] Job title
-  - [ ] Job ID - <span style="background-color: #FF0000"> not provided </span> 
-  - [ ] Location
-  - [ ] Salary
-  - [ ] Posted <span style="background-color:#FFFF00"> X </span> days ago
+  - [x] Job title
+  - [x] Job ID - <span style="background-color: #FF0000"> not provided </span> 
+  - [x] Location
+  - [x] Salary
+  - [x] Posted <span style="background-color:#FFFF00"> X </span> days ago
 
 **2 Box**
 
-- [ ] Job description
-- [ ] Apply function
+- [x] Job description
+- [x] Apply button
+
+</details>
 
 </details>
 
