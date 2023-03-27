@@ -12,12 +12,8 @@ npm run dev
 ```
 
 ## Project link:
-*Web app that provides a search interface for jobs*
 
-```html
-https://cov393.github.io/JobHunt/job_search
-```
-
+<a href="https://cov393.github.io/JobHunt/job_search"> Job Hunt </a>
 
 ## Requirements
 
