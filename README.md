@@ -16,13 +16,22 @@ Web app that provides a search interface for jobs
 ## Requirements
 
 <details> <summary> Features </summary>
+|----------|
 
-- [x] Fetch job data from a mock API, using the JSON Provided to you.
+| - [x] Fetch job data from a mock API, using the JSON Provided to you. |
+
 - [x] Use VueJS to implement the front-end functionality.
-- [ ] Use Tailwind CSS, Bootstrap, or a framework that you are comfortable with to make the web page mobile responsive.
-- [ ] Implement a search bar that allows the user to search for jobs by title. The search results should update dynamically as the user types.
-- [ ] Implement a dropdown for the Sort By field, with options to filter by highest salary and latest date. The search results should dynamically change on selection.
-- [ ] Implement checkboxes that allow the user to filter the search results by category. The categories should be fetched dynamically from the API data. The search results should dynamically change on selection.
+- [x] Use Tailwind CSS,
+- [x] Use Bootstrap, or a framework that you are comfortable with to make the web page mobile responsive.
+- [x] Implement a search bar that allows the user to search for jobs by title. 
+- [x] The search results should update dynamically as the user types.
+- [x] Implement a dropdown for the Sort By field, with options to filter by highest salary and latest date. 
+- [x] The search results should dynamically change on selection.
+- [ ] Implement checkboxes that allow the user to filter the search results by category.
+- [x] The categories should be fetched dynamically from the API data. 
+- [x] The search results should dynamically change on selection.
+
+|------|
 
 
 
