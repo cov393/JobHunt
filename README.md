@@ -16,10 +16,8 @@ Web app that provides a search interface for jobs
 ## Requirements
 
 <details> <summary> Features </summary>
-|----------|
 
-| - [x] Fetch job data from a mock API, using the JSON Provided to you. |
-
+- [x] Fetch job data from a mock API, using the JSON Provided to you.
 - [x] Use VueJS to implement the front-end functionality.
 - [x] Use Tailwind CSS,
 - [x] Use Bootstrap, or a framework that you are comfortable with to make the web page mobile responsive.
@@ -30,8 +28,6 @@ Web app that provides a search interface for jobs
 - [ ] Implement checkboxes that allow the user to filter the search results by category.
 - [x] The categories should be fetched dynamically from the API data. 
 - [x] The search results should dynamically change on selection.
-
-|------|
 
 
 
