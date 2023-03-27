@@ -17,7 +17,7 @@ npm run dev
 
 ## Requirements
 
-<details> <summary> Features </summary>
+***Features:*** 
 
 - [x] Fetch job data from a mock API, using the JSON Provided to you.
 - [x] Use VueJS to implement the front-end functionality.
@@ -29,21 +29,21 @@ npm run dev
 - [x] Implement checkboxes that allow the user to filter the search results by category.
 - [x] The categories should be fetched dynamically from the API data. The search results should dynamically change on selection.
 
+_______
 
-
-<details><summary> Use VueJS to implement the front-end functionality. </summary>
-<details> <summary> Job Search: </summary> 
+ ***Use VueJS to implement the front-end functionality.***
+ 
+* Job Search:  
 
 - [x] Search by Job title
 - [x] Sort by Date
 - [x] Category sorting 
 - [x] Display Job specifications: title, job ID - <span style="background-color: #FF0000"> not provided </span> , salary, posted <span style="background-color:#FFFF00"> X </span> days ago
 
-</details>
 
-<details> <summary> Job Details: </summary>
 
- Display the selected job in new page:
+* Job Details: 
+* *Display the selected job in new page:*
   
 **1 Box**
 
@@ -58,17 +58,17 @@ npm run dev
 - [x] Job description
 - [x] Apply button
 
-</details>
 
-</details>
+_________
 
-</details>
 <details> <summary> Bonus Features: </summary>
 
 - [ ] Implement pagination for the job results, with 10 results per page.
 - [x] Implement the Job Details page, linked to the View button on the Job Results page.
 
 </details>
+
+_________
 
 ## UI design requirements, BEFORE UI design implementation, AFTER UI design implementation
 
