@@ -13,7 +13,7 @@ npm run dev
 
 ## Project link:
 
-<a href="https://cov393.github.io/JobHunt/job_search"> Job Hunt </a>
+<a href="https://cov393.github.io/JobHunt/"> Job Hunt </a>
 
 ## Requirements
 
