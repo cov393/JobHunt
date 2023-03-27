@@ -63,6 +63,12 @@ Web app that provides a search interface for jobs
 </details>
 
 </details>
+<details> <summary> Bonus Features: </summary>
+
+- [ ] Implement pagination for the job results, with 10 results per page.
+- [x] Implement the Job Details page, linked to the View button on the Job Results page.
+
+</details>
 
 ## UI design requirements, BEFORE UI design implementation, AFTER UI design implementation
 
