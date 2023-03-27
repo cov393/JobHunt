@@ -67,7 +67,9 @@ Web app that provides a search interface for jobs
 ## UI design requirements, BEFORE UI design implementation, AFTER UI design implementation
 
 | UI Design Stages| Job Search Page | Job Details Page | 
+|------|------|------|
 | UI Design requirements| <img alt="ccf" align="right" src="https://user-images.githubusercontent.com/74015697/227816642-6d75e362-3009-41a6-a146-88af4cbd07b3.png" width="400"> | <img alt="ccf" align="right" src="https://user-images.githubusercontent.com/74015697/227816591-568568db-3994-4527-8a2b-14522452e6ba.png" width="400"> |
+
 
 ## Sources
 
