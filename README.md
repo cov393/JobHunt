@@ -68,7 +68,12 @@ Web app that provides a search interface for jobs
 
 | UI Design Stages| Job Search Page | Job Details Page | 
 |------|------|------|
-| UI Design requirements| <img alt="ccf" align="right" src="https://user-images.githubusercontent.com/74015697/227816642-6d75e362-3009-41a6-a146-88af4cbd07b3.png" width="400"> | <img alt="ccf" align="right" src="https://user-images.githubusercontent.com/74015697/227816591-568568db-3994-4527-8a2b-14522452e6ba.png" width="400"> |
+| **UI Design requirements**| <img alt="ccf" align="right" src="https://user-images.githubusercontent.com/74015697/227816642-6d75e362-3009-41a6-a146-88af4cbd07b3.png" width="400"> | <img alt="ccf" align="right" src="https://user-images.githubusercontent.com/74015697/227816591-568568db-3994-4527-8a2b-14522452e6ba.png" width="400"> |
+|------|------|------|
+| **BEFORE UI design implementation** | <img alt="ccf" align="right" src="https://user-images.githubusercontent.com/74015697/227816969-7a5013af-c361-4eac-806f-b8784c53b782.png" width="400"> | <img alt="ccf" align="right" src="https://user-images.githubusercontent.com/74015697/227817020-0c4d6c18-ae40-4f4e-93e6-442c50b22a35.png" width="400"> |
+|------|------|------|
+| **AFTER UI design implementation** | <img alt="ccf" align="right" src="" width="400"> | <img alt="ccf" align="right" src="" width="400"> |
+|------|------|------|
 
 
 ## Sources
