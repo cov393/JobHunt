@@ -11,7 +11,13 @@ npm install
 npm run dev
 ```
 
-Web app that provides a search interface for jobs
+## Project link:
+*Web app that provides a search interface for jobs*
+
+```html
+https://cov393.github.io/JobHunt/job_search
+```
+
 
 ## Requirements
 
